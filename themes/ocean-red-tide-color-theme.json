@@ -28,7 +28,8 @@
         "name": "String Escape",
         "scope": "constant.character.escape, text.html constant.character.entity.named",
         "settings": {
-          "foreground": "#babed8"
+          "foreground": "#babed8",
+          "fontStyle": "bold"
         }
       },
       {
@@ -53,10 +54,170 @@
         }
       },
       {
+        "name": "Keyword",
+        "scope": [ "keyword.control" ],
+        "settings": {
+          "foreground": "#89DDFF",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Keyword",
+        "scope": [ "keyword.control.pseudo-method" ],
+        "settings": {
+          "foreground": "#89c0ff",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Parameter",
+        "scope": [
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "self",
+        "scope": [
+          "variable.parameter.function.language.special.self.python",
+          "variable.language.this",
+          "variable.language.self"
+        ],
+        "settings": {
+          "foreground": "#F07178",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Parameters",
+        "scope": [
+          "variable.parameter",
+          "constant.other.symbol.hashkey.parameter.function",
+          "constant.other.color.rgb-value.hex.css",
+          "support.constant.color.w3c-standard-color-name.css",
+          "constant.other.database-name.sql",
+          "constant.other.symbol.hashkey.parameter.function.rbs"
+        ],
+        "settings": {
+          "foreground": "#babed8",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Regexp",
+        "scope": ["string.regexp"],
+        "settings": {
+          "foreground": "#C3E88D",
+        }
+      },
+      {
+        "name": "Regexp symbols",
+        "scope": [
+          "string.regexp.character-class",
+          "string.regexp.arbitrary-repetition"
+        ],
+        "settings": {
+          "foreground": "#F78C6C"
+        }
+      },
+      {
+        "name": "CSS Units",
+        "scope": [
+          "keyword.other.unit.em.css",
+          "keyword.other.unit.percentage.css",
+          "keyword.other.unit.rem.css",
+          "keyword.other.unit.px.css"
+        ],
+        "settings": {
+          "foreground": "#F78C6C"
+        }
+      },
+      {
+        "name": "Ruby Operators and Keywords",
+        "scope": [
+          // "support.function.kernel.ruby",
+          "punctuation.definition.constant.hashkey",
+          "entity.name.type.class.ruby",
+          "entity.other.inherited-class.ruby",
+          "entity.name.type.module",
+          "meta.module.ruby",
+          "meta.function.method.with-arguments.ruby",
+          "meta.function.method.without-arguments.ruby",
+        ],
+        "settings": {
+          "foreground": "#ffcb6b"
+        }
+      },
+      {
+        "name": "Ruby Symbols",
+        "scope": [
+          "constant.other.symbol.ruby",
+          "constant.language.symbol",
+          "constant.other.symbol.hashkey.ruby",
+          "string.regexp.character-class"
+        ],
+        "settings": {
+          "foreground": "#89DDFF"
+        }
+      },
+      {
+        "name": "Instance Variables",
+        "scope": [
+          "punctuation.definition.variable",
+        ],
+        "settings": {
+          "foreground": "#8bdcf7",
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "TypeScript/JavaScript Operators",
+        "scope": [
+          "keyword.operator.type.ts",
+          "keyword.operator.type.annotation.ts",
+          "keyword.operator.assignment.ts",
+          "keyword.operator.relational.ts",
+          "keyword.operator.increment.ts",
+          "keyword.operator.bitwise.shift.ts",
+          "keyword.operator.bitwise.ts",
+          "keyword.operator.assignment.js",
+          "keyword.operator.relational.js",
+          "keyword.operator.increment.js",
+          "keyword.operator.bitwise.shift.js",
+          "keyword.operator.bitwise.js",
+          "keyword.generator.asterisk.js",
+          "storage.type.function.arrow.ts",
+          "storage.type.function.ts",
+          "storage.type.interface.ts",
+          "storage.type.enum.ts",
+          "storage.type.ts",
+          "support.type.primitive.ts",
+          "storage.type.class.ts",
+          "storage.type.class.js",
+          "storage.type.function.js",
+          "storage.type.js",
+          "storage.type.function.arrow.js",
+          "constant.language.null.js",
+          "support.type.builtin.rbs"
+        ],
+        "settings": {
+          "foreground": "#89DDFF"
+        }
+      },
+      {
         "name": "Other Keyword",
         "scope": "keyword.other",
         "settings": {
           "foreground": "#F78C6C"
+        }
+      },
+      {
+        "name": "Other Keyword Special Method",
+        "scope": "keyword.other.special-method",
+        "settings": {
+          "foreground": "#C792EA"
         }
       },
       {
@@ -90,31 +251,51 @@
       },
       {
         "name": "Type",
-        "scope": "support.type, constant.other.key",
-        "settings": {
-          "foreground": "#FFCB6B"
-        }
-      },
-      {
-        "name": "Type",
-        "scope": "entity.name.type, entity.other.inherited-class, entity.other",
+        "scope": [
+          "support.type",
+          "constant.other.key",
+          "entity.name.type",
+          "entity.other.inherited-class",
+          "entity.other"
+        ],
         "settings": {
           "foreground": "#FFCB6B"
         }
       },
       {
         "name": "Comment",
-        "scope": "comment",
+        "scope": "comment, string.quoted.docstring",
         "settings": {
-          "foreground": "#5e566e",
+          "foreground": "#5f6576",
           "fontStyle": "italic"
         }
       },
       {
-        "name": "Comment",
-        "scope": "comment punctuation.definition.comment, string.quoted.docstring",
+        "name": "Comment Punctuation",
+        "scope": [
+          "punctuation.definition.comment",
+          "comment.line.punctuation.yard"
+        ],
         "settings": {
           "foreground": "#464B5D",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Comment Parameter",
+        "scope": "comment.line.parameter.yard",
+        "settings": {
+          "foreground": "#7A7F9B",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Comment Type",
+        "scope": [
+          "comment.line.type"
+        ],
+        "settings": {
+          "foreground": "#8B7B4D",
           "fontStyle": "italic"
         }
       },
@@ -144,6 +325,17 @@
         "scope": "meta.definition.method entity.name.function",
         "settings": {
           "foreground": "#f07178"
+        }
+      },
+      {
+        "name": "Constant",
+        "scope": [
+          "constant.other.constant",
+          "variable.other.constant"
+        ],
+        "settings": {
+          "foreground": "#a9adc2",
+          "fontStyle": "bold"
         }
       },
       {
@@ -344,10 +536,9 @@
         "scope": [
           "comment.line.keyword.yard",
           "comment.line.keyword.punctuation.yard",
-          "comment.line.punctuation.yard"
         ],
         "settings": {
-          "foreground": "#6B7394",
+          "foreground": "#946b6b",
           "fontStyle": "italic bold"
         }
       },
