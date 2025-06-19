@@ -86,7 +86,7 @@
           "variable.language.self"
         ],
         "settings": {
-          "foreground": "#F07178",
+          "foreground": "#FF9CAC",
           "fontStyle": "italic"
         }
       },
@@ -274,7 +274,7 @@
         "name": "Comment Punctuation",
         "scope": [
           "punctuation.definition.comment",
-          "comment.line.punctuation.yard"
+          "comment.line.punctuation"
         ],
         "settings": {
           "foreground": "#464B5D",
@@ -535,10 +535,10 @@
         "name": "YARD documentation",
         "scope": [
           "comment.line.keyword.yard",
-          "comment.line.keyword.punctuation.yard",
+          // "comment.line.keyword.punctuation.yard"
         ],
         "settings": {
-          "foreground": "#946b6b",
+          "foreground": "#84609c",
           "fontStyle": "italic bold"
         }
       },
