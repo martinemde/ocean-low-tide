@@ -7,7 +7,10 @@
     "type": "git",
     "url": "https://github.com/martinemde/ocean-low-tide"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
   "license": "MIT",
   "icon": "icon.png",
   "keywords": [
@@ -16,12 +19,10 @@
     "dark-theme",
     "material",
     "ocean",
+    "elflord",
     "ruby",
     "lsp"
   ],
-  "engines": {
-    "vscode": "^1.103.0"
-  },
   "categories": [
     "Themes"
   ],
