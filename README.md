@@ -37,7 +37,7 @@ A beautiful dark theme inspired by Material Ocean with extended support for Ruby
 This theme provides enhanced syntax highlighting for:
 
 - **Ruby** - Extended LSP support with special highlighting for methods, classes, and symbols
-- **JavaScript/TypeScript** - Enhanced operator and type highlighting  
+- **JavaScript/TypeScript** - Enhanced operator and type highlighting
 - **Python** - Improved function and class distinction
 - **Rust** - Attribute and namespace highlighting
 - **CSS/HTML** - Better element and property distinction
@@ -59,7 +59,7 @@ The theme uses a carefully selected color palette based on Material Ocean:
 
 ## Contributing
 
-Found a bug or want to suggest an improvement? 
+Found a bug or want to suggest an improvement?
 
 1. Open an issue on [GitHub](https://github.com/martinemde/ocean-low-tide)
 2. Fork the repository
