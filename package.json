@@ -9,6 +9,7 @@
   },
   "version": "0.0.1",
   "license": "MIT",
+  "icon": "icon.png",
   "keywords": [
     "theme",
     "color-theme",
