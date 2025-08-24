@@ -1,12 +1,11 @@
 {
-    "name": "My Custom Ocean Theme",
+    "name": "Ocean Low Tide",
     "type": "dark",
     "semanticHighlighting": true,
     "tokenColors": [
       {
         "name": "Global settings",
         "settings": {
-          "background": "#0F111A",
           "foreground": "#babed8"
         }
       },
@@ -106,11 +105,11 @@
         }
       },
       {
-        "name": "Regexp",
-        "scope": ["string.regexp"],
-        "settings": {
-          "foreground": "#C3E88D",
-        }
+              "name": "Regexp",
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
       },
       {
         "name": "Regexp symbols",
@@ -137,14 +136,13 @@
       {
         "name": "Ruby Operators and Keywords",
         "scope": [
-          // "support.function.kernel.ruby",
-          // "punctuation.definition.constant.hashkey",
+
           "entity.name.type.class.ruby",
           "entity.other.inherited-class.ruby",
           "entity.name.type.module",
           "meta.module.ruby",
           "meta.function.method.with-arguments.ruby",
-          "meta.function.method.without-arguments.ruby",
+          "meta.function.method.without-arguments.ruby"
         ],
         "settings": {
           "foreground": "#ffcb6b"
@@ -534,8 +532,7 @@
       {
         "name": "YARD documentation",
         "scope": [
-          "comment.line.keyword.yard",
-          // "comment.line.keyword.punctuation.yard"
+          "comment.line.keyword.yard"
         ],
         "settings": {
           "foreground": "#84609c",
@@ -687,7 +684,7 @@
       "list.hoverBackground": "#090B10",
       "list.inactiveSelectionBackground": "#00000030",
       "activityBar.background": "#090B10",
-      "activityBar.dropBackground": "#f0717880",
+
       "activityBarBadge.background": "#80CBC4",
       "activityBarBadge.foreground": "#000000",
       "badge.background": "#00000030",
@@ -713,7 +710,7 @@
       "editor.selectionHighlightBackground": "#FFCC0020",
       "editor.wordHighlightBackground": "#ff9cac30",
       "editor.wordHighlightStrongBackground": "#C3E88D30",
-      "editor.findMatchHighlight": "#babed8",
+
       "editor.findRangeHighlightBackground": "#FFCB6B30",
       "editor.lineHighlightBorder": "#00000000",
       "editor.rangeHighlightBackground": "#FFFFFF0d",
@@ -775,7 +772,7 @@
       "sideBar.border": "#3E445D60",
       "sideBarTitle.foreground": "#babed8",
       "sideBarSectionHeader.border": "#3E445D60",
-      "panel.dropBackground": "#babed8",
+
       "sash.hoverBorder": "#80cbc4",
       "panelTitle.activeForeground": "#FFFFFF",
       "editor.lineHighlightBackground": "#00000050",
@@ -783,8 +780,8 @@
       "editor.findMatchHighlightBackground": "#00000050",
       "editor.findMatchBorder": "#80CBC4",
       "editor.findMatchHighlightBorder": "#ffffff50",
-      "editorIndentGuide.background": "#3B3F5170",
-      "editorIndentGuide.activeBackground": "#3B3F51",
+      "editorIndentGuide.background1": "#3B3F5170",
+      "editorIndentGuide.activeBackground1": "#3B3F51",
       "editorGroup.border": "#00000030",
       "editorGutter.modifiedBackground": "#82AAFF60",
       "editorGutter.addedBackground": "#C3E88D60",
@@ -807,7 +804,7 @@
       "statusBar.foreground": "#4B526D",
       "editorBracketMatch.border": "#FFCC0050",
       "editorBracketMatch.background": "#0F111A",
-      "editorOverviewRuler.findMatchForeground": "#80CBC4",
+      "editorOverviewRuler.findMatchForeground": "#80CBC480",
       "editorOverviewRuler.border": "#0F111A",
       "editorOverviewRuler.errorForeground": "#f0717840",
       "editorOverviewRuler.infoForeground": "#82AAFF40",
@@ -831,7 +828,7 @@
       "quickInput.foreground": "#4B526D",
       "list.hoverForeground": "#FFFFFF",
       "list.inactiveSelectionForeground": "#80CBC4",
-      "quickInput.list.focusBackground": "#babed820",
+      "quickInputList.focusBackground": "#babed820",
       "editorSuggestWidget.background": "#0F111A",
       "editorSuggestWidget.foreground": "#babed8",
       "editorSuggestWidget.highlightForeground": "#80CBC4",
