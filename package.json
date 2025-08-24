@@ -2,7 +2,22 @@
   "name": "ocean-low-tide",
   "displayName": "Ocean Low Tide",
   "description": "Material Ocean with extended support for Ruby LSP",
+  "publisher": "martinemde",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martinemde/ocean-low-tide"
+  },
   "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "material",
+    "ocean",
+    "ruby",
+    "lsp"
+  ],
   "engines": {
     "vscode": "^1.101.0"
   },

@@ -138,7 +138,7 @@
         "name": "Ruby Operators and Keywords",
         "scope": [
           // "support.function.kernel.ruby",
-          "punctuation.definition.constant.hashkey",
+          // "punctuation.definition.constant.hashkey",
           "entity.name.type.class.ruby",
           "entity.other.inherited-class.ruby",
           "entity.name.type.module",
