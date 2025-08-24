@@ -2,6 +2,8 @@
 
 A beautiful dark theme inspired by Material Ocean with extended support for Ruby LSP and enhanced syntax highlighting.
 
+Available on [Open VSX (Cursor)](https://open-vsx.org/extension/martinemde/ocean-low-tide) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=martinemde.ocean-low-tide).
+
 ## Features
 
 - **Dark theme** based on Material Ocean color palette
@@ -14,12 +16,14 @@ A beautiful dark theme inspired by Material Ocean with extended support for Ruby
 ## Installation
 
 ### From VS Code Marketplace
+
 1. Open VS Code
 2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
 3. Search for "Ocean Low Tide"
 4. Click Install
 
 ### Manual Installation
+
 1. Download the .vsix file from releases
 2. Open VS Code
 3. Press Ctrl+Shift+P (Cmd+Shift+P on Mac)
@@ -73,6 +77,7 @@ MIT License - see LICENSE file for details
 ## Changelog
 
 ### 0.0.1
+
 - Initial release
 - Ocean Low Tide and Ocean Elflord themes
 - Enhanced Ruby LSP support

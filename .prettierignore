@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+*.vsix
+
+# VS Code extension files
+vsc-extension-quickstart.md
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg

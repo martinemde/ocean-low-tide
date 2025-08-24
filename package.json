@@ -1,7 +1,7 @@
 {
   "name": "ocean-low-tide",
   "displayName": "Ocean Low Tide",
-  "description": "Material Ocean with extended support for Ruby LSP",
+  "description": "Dark themes inspired by Material Ocean, with extended support for Ruby LSP",
   "publisher": "martinemde",
   "repository": {
     "type": "git",
@@ -15,13 +15,10 @@
   "icon": "icon.png",
   "keywords": [
     "theme",
-    "color-theme",
     "dark-theme",
     "material",
     "ocean",
-    "elflord",
-    "ruby",
-    "lsp"
+    "elflord"
   ],
   "categories": [
     "Themes"
@@ -39,5 +36,13 @@
         "path": "./themes/ocean-low-tide-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
   }
 }
